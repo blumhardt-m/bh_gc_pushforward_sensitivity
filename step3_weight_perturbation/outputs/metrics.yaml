@@ -1,0 +1,61 @@
+timestamp: '2026-04-16T18:58:52+00:00'
+protocol_sha256: 9dbea01a2e81ff4b21e8c75e15ec73c10d96dfdf69495f6534d22b93e4102fe8
+osf_url: https://osf.io/dmpes
+n_rows: 33079
+mu_base: 7603.012888429145
+sigma_base: 29.81786658097148
+var_base: 889.1051674406158
+epsilon_results:
+- epsilon: 0.0
+  status: OK
+  W1: 4.995998703622834e-13
+  sigma_base: 29.81786658097148
+  tolerance: 0.2981786658097148
+  ratio: 1.6755050835230017e-14
+  mu_base: 7603.012888429145
+  mu_eps: 7603.0128884291535
+  mean_diff: 8.185452315956354e-12
+  var_base: 889.1051674406158
+  var_eps: 889.1051674406223
+  var_diff: 6.480149750132114e-12
+  classification: BASELINE_RECOVERED
+- epsilon: 0.01
+  status: OK
+  W1: 0.038648804466900714
+  sigma_base: 29.81786658097148
+  tolerance: 0.2981786658097148
+  ratio: 0.001296162633297339
+  mu_base: 7603.012888429145
+  mu_eps: 7602.974239624705
+  mean_diff: 0.038648804440526874
+  var_base: 889.1051674406158
+  var_eps: 889.0082476572214
+  var_diff: 0.09691978339435536
+  classification: PERTURBATION_DETECTED
+- epsilon: 0.05
+  status: OK
+  W1: 0.19284412364911604
+  sigma_base: 29.81786658097148
+  tolerance: 0.2981786658097148
+  ratio: 0.006467401788301686
+  mu_base: 7603.012888429145
+  mu_eps: 7602.820044305557
+  mean_diff: 0.19284412358865666
+  var_base: 889.1051674406158
+  var_eps: 888.5918356901827
+  var_diff: 0.5133317504330535
+  classification: PERTURBATION_DETECTED
+- epsilon: 0.1
+  status: OK
+  W1: 0.38469314354163175
+  sigma_base: 29.81786658097148
+  tolerance: 0.2981786658097148
+  ratio: 0.012901430841706392
+  mu_base: 7603.012888429145
+  mu_eps: 7602.628195285651
+  mean_diff: 0.3846931434945873
+  var_base: 889.1051674406158
+  var_eps: 888.0073498037656
+  var_diff: 1.097817636850209
+  classification: PERTURBATION_DETECTED
+nonmonotonicity: []
