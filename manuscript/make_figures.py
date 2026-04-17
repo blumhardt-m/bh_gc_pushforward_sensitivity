@@ -79,7 +79,7 @@ def append_artifact_hash(path: Path, hash_log_file: Path, repo_root: Path) -> No
 
 
 def load_step4(repo_root: Path) -> dict:
-    metrics_path = repo_root / "outputs" / "w1_metrics.yaml"
+    metrics_path = repo_root / "step4_support_perturbation" / "outputs" / "w1_metrics.yaml"
     with metrics_path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
@@ -225,7 +225,7 @@ def figure_2(step4: dict, out_path: Path) -> None:
 def main() -> None:
     repo_root    = Path(__file__).resolve().parent.parent
     ms_dir       = repo_root / "manuscript"
-    hash_log     = repo_root / "logs" / "artifact_hashes.yaml"
+    hash_log     = ms_dir / "artifact_hashes.yaml"
 
     step4 = load_step4(repo_root)
 

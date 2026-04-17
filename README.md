@@ -85,7 +85,9 @@ The supplementary archive `aav8137_data_s3.zip` is available from the journal. P
 
 ## Dependencies
 
-Python 3.9+, numpy, scipy, matplotlib, pyyaml. No additional packages required. All numerical algorithms are implemented directly in the scripts with no external statistical library dependencies for the core W1 computation.
+Python 3.9+, numpy, matplotlib, pyyaml. No additional packages required. All numerical algorithms are implemented directly in the scripts with no external statistical library dependencies for the core W1 computation.
+
+Tested with: Python 3.13.11, numpy 2.4.3, matplotlib 3.10.8, pyyaml 6.0.3.
 
 ## License
 
